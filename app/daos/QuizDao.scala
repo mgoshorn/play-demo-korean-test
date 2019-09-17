@@ -4,9 +4,7 @@ import java.sql.{PreparedStatement, ResultSet, Statement}
 
 import javax.inject.{Inject, Singleton}
 import models.DictionaryItem
-import play.api.db
 import play.api.db.Database
-import play.api.mvc.Action
 
 import scala.collection.mutable.ListBuffer
 
